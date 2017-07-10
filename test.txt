@@ -31,7 +31,7 @@ Route::group(['middleware' => ['guest']], function () {
     Route::get('password-reset', 'Site\ForgotPasswordController@restorePasswordForm')->name('password.reset');
     Route::post('password-reset', 'Site\ForgotPasswordController@restorePassword')->name('password.reset');
 });
-dssadadadada
+
 /**
  *  Logout
  */
@@ -168,5 +168,5 @@ Route::group(['prefix' => 'admin', 'namespace' => 'Admin', 'middleware' => ['aut
         ]
     ]);
 });
-sdfknslknf
-dfsfsdfnsn dsfnsnf
+kmdslkdsmlsk dsmldmslmlsm
+
