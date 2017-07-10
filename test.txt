@@ -18,8 +18,6 @@ foreach ($static_pages as $static_page) {
     Route::get($static_page->slug,  'Site\PagesController@page')->name('static-page.'.$static_page->page_type);
 }
 
-Route::get('confirm/invitation', 'UsersController@confirmInvitation')->name('users.invitations.confirm');
-
 /**
  *  Auth Routes
  */
@@ -28,8 +26,6 @@ Route::group(['middleware' => ['guest']], function () {
     Route::get('confirm', 'Site\RegisterController@confirm')->name('confirm');
     Route::post('register', 'Site\RegisterController@register')->name('register');
     Route::get('registered', 'Site\RegisterController@registered')->name('registered');
-    Route::get('signin', 'Site\LoginController@signin')->name('signin');
-    Route::post('login', 'Site\LoginController@login')->name('login');
     Route::get('password-forgot', 'Site\ForgotPasswordController@showLinkRequestForm')->name('password.forgot');
     Route::post('password-forgot', 'Site\ForgotPasswordController@sendResetLinkEmail')->name('password.forgot');
     Route::get('password-reset', 'Site\ForgotPasswordController@restorePasswordForm')->name('password.reset');
