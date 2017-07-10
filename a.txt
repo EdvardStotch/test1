@@ -1,4 +1,4 @@
 goodby hello php
 
 hello gtest
-loc
+loc a l
