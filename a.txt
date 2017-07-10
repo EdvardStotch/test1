@@ -1,4 +1,5 @@
-goodby hello php
+hello php test1 file
 
 hello gtest
-loc a l
+loc of all
+
