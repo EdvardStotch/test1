@@ -1,5 +1,4 @@
-hello php test1 file
+goodby hello php
 
 hello gtest
-loc of all
-
+loc a lasda
