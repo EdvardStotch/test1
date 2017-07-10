@@ -18,8 +18,6 @@ foreach ($static_pages as $static_page) {
     Route::get($static_page->slug,  'Site\PagesController@page')->name('static-page.'.$static_page->page_type);
 }
 
-Route::get('confirm/invitation', 'UsersController@confirmInvitation')->name('users.invitations.confirm');
-
 /**
  *  Auth Routes
  */
@@ -170,4 +168,5 @@ Route::group(['prefix' => 'admin', 'namespace' => 'Admin', 'middleware' => ['aut
         ]
     ]);
 });
-
+sdfknslknf
+dfsfsdfnsn dsfnsnf
