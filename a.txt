@@ -1,4 +1,4 @@
-goodby hello php
+hello Gevorg
 
 hello gtest
 loc a lasda
